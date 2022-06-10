@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088DE886284E0E4200F82E3B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DE885284E0E4200F82E3B /* DetailViewController.swift */; };
 		08C4E7C7284B8DD1001A0538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4E7C6284B8DD1001A0538 /* AppDelegate.swift */; };
 		08C4E7C9284B8DD1001A0538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4E7C8284B8DD1001A0538 /* SceneDelegate.swift */; };
 		08C4E7CB284B8DD1001A0538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4E7CA284B8DD1001A0538 /* ViewController.swift */; };
 		08C4E7CE284B8DD1001A0538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C4E7CC284B8DD1001A0538 /* Main.storyboard */; };
 		08C4E7D0284B8DD4001A0538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C4E7CF284B8DD4001A0538 /* Assets.xcassets */; };
 		08C4E7D3284B8DD4001A0538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C4E7D1284B8DD4001A0538 /* LaunchScreen.storyboard */; };
+		08C4E7DB284B91A3001A0538 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4E7DA284B91A3001A0538 /* Petition.swift */; };
+		08C4E7DD284B9278001A0538 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4E7DC284B9278001A0538 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		088DE885284E0E4200F82E3B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		08C4E7C3284B8DD1001A0538 /* Petitions App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Petitions App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C4E7C6284B8DD1001A0538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C4E7C8284B8DD1001A0538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		08C4E7CF284B8DD4001A0538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C4E7D2284B8DD4001A0538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C4E7D4284B8DD4001A0538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C4E7DA284B91A3001A0538 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		08C4E7DC284B9278001A0538 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				08C4E7C6284B8DD1001A0538 /* AppDelegate.swift */,
-				08C4E7C8284B8DD1001A0538 /* SceneDelegate.swift */,
 				08C4E7CA284B8DD1001A0538 /* ViewController.swift */,
+				08C4E7DA284B91A3001A0538 /* Petition.swift */,
+				08C4E7DC284B9278001A0538 /* Petitions.swift */,
+				08C4E7C8284B8DD1001A0538 /* SceneDelegate.swift */,
+				088DE885284E0E4200F82E3B /* DetailViewController.swift */,
 				08C4E7CC284B8DD1001A0538 /* Main.storyboard */,
 				08C4E7CF284B8DD4001A0538 /* Assets.xcassets */,
 				08C4E7D1284B8DD4001A0538 /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C4E7DD284B9278001A0538 /* Petitions.swift in Sources */,
 				08C4E7CB284B8DD1001A0538 /* ViewController.swift in Sources */,
+				08C4E7DB284B91A3001A0538 /* Petition.swift in Sources */,
+				088DE886284E0E4200F82E3B /* DetailViewController.swift in Sources */,
 				08C4E7C7284B8DD1001A0538 /* AppDelegate.swift in Sources */,
 				08C4E7C9284B8DD1001A0538 /* SceneDelegate.swift in Sources */,
 			);
